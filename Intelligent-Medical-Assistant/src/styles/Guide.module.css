@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  
+  .menuBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+  }
+  
+  .backBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+  }
+  
+  .sections {
+    padding-top: 40px;
+  }
+  
+  section {
+    margin-bottom: 80px;
+  }
+  
+  .menuDrawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 33vw;
+    height: 100vh;
+    background: #f0f0f0;
+    z-index: 100;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .menuTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

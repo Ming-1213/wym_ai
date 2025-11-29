@@ -1,0 +1,85 @@
+.container {
+  font-family: sans-serif;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  height: 16.666vh; /* 1/6 手机屏幕 */
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.userInfo {
+  margin-left: 12px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.signature {
+  font-size: 14px;
+  color: #666;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  background-color: white;
+}
+
+.statBox {
+  width: 80px;
+  height: 80px;
+  background: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statNumber {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.statLabel {
+  font-size: 13px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.actions {
+  padding: 0 16px;
+  margin-top: 20px;
+}
+
+.actions button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logout {
+  color: red;
+}
